@@ -1,0 +1,39 @@
+#include <iostream>
+#include <conio.h>
+
+using namespace std;
+
+int main ()
+{
+	int box, sideline, premium, genad, b, s, p, g;
+
+
+	cout << "Please input the no of BOX tickets sold" << endl;
+    cin >> box; 
+
+	cout << "Please input the no of SIDELINE tickets sold" << endl;
+	cin >> sideline;
+	cout << "Please input the no of PREMIUM tickets sold" << endl;
+	cin >> premium;
+	cout << "Please input the no of GenAd tickets sold" << endl;
+	cin >> genad;
+
+	cout << " " << endl;
+
+	cout << "Ticket Price" << "    " << "Number of Tickets Sold" << endl;
+
+	cout << "$250" << "               " << box << endl;
+	cout << "$100" << "               " << sideline << endl;
+	cout << "$50"  << "               " << premium << endl;
+	cout << "$25"  << "               " << genad << endl;
+
+	cout << " " << endl;
+	cout << "Total Number of Tickets Sold = " << box + sideline + premium + genad << endl;
+
+	cout << "Total Sale Amount = $" << box * 250.0 + sideline * 100.0 + premium * 50.0 + genad * 25.0 << endl;
+
+
+
+	_getch();
+	return 0;
+}
