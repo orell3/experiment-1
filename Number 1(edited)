@@ -1,0 +1,128 @@
+
+#include <iostream>
+#include <conio.h>
+#include <iomanip>
+
+using namespace std;
+
+int main ()
+{
+	float box, sideline, premium, genad;
+
+    cout << "Game 1" << endl;
+	cout << " " << endl;
+
+	cout << "Please input the no of BOX tickets sold" << endl;
+    cin >> box; 
+	cout << "Please input the no of SIDELINE tickets sold" << endl;
+	cin >> sideline;
+	cout << "Please input the no of PREMIUM tickets sold" << endl;
+	cin >> premium;
+	cout << "Please input the no of GenAd tickets sold" << endl;
+	cin >> genad;
+
+	cout << " " << endl;
+
+	cout << "Ticket Price" << "    " << "Number of Tickets Sold" << endl;
+
+	cout << "$250" << "               " << box << endl;
+	cout << "$100" << "               " << sideline << endl;
+	cout << "$50"  << "               " << premium << endl;
+	cout << "$25"  << "               " << genad << endl;
+
+	cout << " " << endl;
+	cout << "Total Number of Tickets Sold in Game 1 = " << box + sideline + premium + genad << endl;
+
+	cout << "Total Sale Amount in Game 1 = $" <<
+		box * 250.00 + sideline * 100.00 + premium * 50.00 + genad * 25.00 << endl;
+	cout << " " << endl;
+
+	//Game 2
+
+	cout << "Game 2" << endl;
+	cout << " " << endl;
+
+	cout << "Please input the no of BOX tickets sold" << endl;
+    cin >> box; 
+	cout << "Please input the no of SIDELINE tickets sold" << endl;
+	cin >> sideline;
+	cout << "Please input the no of PREMIUM tickets sold" << endl;
+	cin >> premium;
+	cout << "Please input the no of GenAd tickets sold" << endl;
+	cin >> genad;
+
+	cout << " " << endl;
+
+	cout << "Ticket Price" << "    " << "Number of Tickets Sold" << endl;
+
+	cout << "$250" << "               " << box << endl;
+	cout << "$100" << "               " << sideline << endl;
+	cout << "$50"  << "               " << premium << endl;
+	cout << "$25"  << "               " << genad << endl;
+
+	cout << " " << endl;
+	cout << "Total Number of Tickets Sold in Game 2 = " << box + sideline + premium + genad << endl;
+    cout << "Total Sale Amount in Game 2 = $" << box * 250.00 + sideline * 100.00 + premium * 50.00 + genad * 25.00 << endl;
+	cout << " " << endl;
+
+
+	//Game 3
+
+	cout << "Game 3" << endl;
+	cout << " " << endl;
+
+	cout << "Please input the no of BOX tickets sold" << endl;
+    cin >> box; 
+	cout << "Please input the no of SIDELINE tickets sold" << endl;
+	cin >> sideline;
+	cout << "Please input the no of PREMIUM tickets sold" << endl;
+	cin >> premium;
+	cout << "Please input the no of GenAd tickets sold" << endl;
+	cin >> genad;
+
+	cout << " " << endl;
+	cout << "Ticket Price" << "    " << "Number of Tickets Sold" << endl;
+
+	cout << "$250" << "               " << box << endl;
+	cout << "$100" << "               " << sideline << endl;
+	cout << "$50"  << "               " << premium << endl;
+	cout << "$25"  << "               " << genad << endl;
+
+	cout << " " << endl;
+	cout << "Total Number of Tickets Sold in Game 3 = " << box + sideline + premium + genad << endl;
+
+	cout << "Total Sale Amount in Game 3 = $" << box * 250.00 + sideline * 100.00 + premium * 50.00 + genad * 25.00 << endl;
+	cout << " " << endl;
+
+	//Game 4
+
+	cout << "Game 4" << endl;
+	cout << " " << endl;
+	cout << "Please input the no of BOX tickets sold" << endl;
+    cin >> box; 
+
+	cout << "Please input the no of SIDELINE tickets sold" << endl;
+	cin >> sideline;
+	cout << "Please input the no of PREMIUM tickets sold" << endl;
+	cin >> premium;
+	cout << "Please input the no of GenAd tickets sold" << endl;
+	cin >> genad;
+
+	cout << " " << endl;
+
+	cout << "Ticket Price" << "    " << "Number of Tickets Sold" << endl;
+
+	cout << "$250" << "               " << box << endl;
+	cout << "$100" << "               " << sideline << endl;
+	cout << "$50"  << "               " << premium << endl;
+	cout << "$25"  << "               " << genad << endl;
+
+	cout << " " << endl;
+
+	cout << "Total Number of Tickets Sold in Game 4 = " << box + sideline + premium + genad << endl;
+
+	cout << "Total Sale Amount in Game 4 = $" << box * 250.00 + sideline * 100.00 + premium * 50.00 + genad * 25.00 << endl;
+
+	_getch();
+	return 0;
+}
